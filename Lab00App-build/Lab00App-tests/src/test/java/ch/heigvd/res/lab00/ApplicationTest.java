@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
  * @author Olivier Liechti
  */
 public class ApplicationTest {
-  
+
   public ApplicationTest() {
   }
   
@@ -48,9 +48,8 @@ public class ApplicationTest {
   
   @Test
   public void thereShouldBeAMethodToAddIntegers() {
-    Application application = new Application();
-    int sum = application.add(40, 2);
-    assertEquals(42, sum);
+      Application application = new Application();
+      int sum = application.add(40, 2);
+      assertEquals(42, sum);
   }
-  
 }
